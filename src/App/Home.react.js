@@ -12,7 +12,7 @@ import {
     Toolbar,
     BottomNavigation,
     Icon,
-} from '../react-native-material-ui/src';
+} from 'react-native-material-ui/src';
 
 const UP = 1;
 const DOWN = -1;
