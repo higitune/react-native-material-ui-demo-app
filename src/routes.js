@@ -3,6 +3,7 @@ import Home from './App/Home.react';
 import ActionButton from './ActionButton';
 import ActionButtonToolbar from './ActionButton/ActionButtonToolbar.react';
 import ActionButtonSpeedDial from './ActionButton/ActionButtonSpeedDial.react';
+import SaunaList from './SaunaList';
 import Avatar from './Avatar';
 import BottomNavigation from './BottomNavigation';
 import Badge from './Badge';
@@ -32,6 +33,10 @@ export default {
     actionButtonSpeedDial: {
         title: 'Speed dial transition',
         Page: ActionButtonSpeedDial,
+    },
+    saunaList: {
+        title: 'Sauna List',
+        Page: SaunaList,
     },
     avatar: {
         title: 'Avatars',

@@ -150,6 +150,7 @@ class Home extends Component {
                     keyboardDismissMode="interactive"
                     onScroll={this.onScroll}
                 >
+                    {this.renderItem('Sauna list', routes.saunaList)}
                     {this.renderItem('Action buttons', routes.actionButton)}
                     {this.renderItem('Avatars', routes.avatar)}
                     {this.renderItem('Badge', routes.badge)}
